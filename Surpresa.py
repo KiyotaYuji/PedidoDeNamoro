@@ -9,7 +9,7 @@ def send_notification():
     """Envia a notificação para o Discord sem travar a interface."""
     try:
         # IMPORTANTE: Cole a URL do seu Webhook aqui dentro das aspas!
-        webhook_url = "https://discord.com/api/webhooks/1412068265202552893/oqWkClRjgspvk4xIef2JGdEU-cjORbMCo7NWmst7mVpnHRTKHFwhm9OvAw1_o6sutt0s" 
+        webhook_url = "Não nasci ontem" 
 
         # A mensagem que você quer enviar
         message = {
@@ -74,4 +74,5 @@ no_button.pack(side=tk.LEFT, padx=10)
 root.protocol("WM_DELETE_WINDOW", on_closing)
 
 # Inicia o loop da aplicação
+
 root.mainloop()
